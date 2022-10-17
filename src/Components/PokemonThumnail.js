@@ -26,7 +26,7 @@ const [show, setShow] = useState(false);
 return (
 	<div className={style}>
 	<div className="number">
-		<small>#0{id}</small>
+		<small>#00{id}</small>
 	</div>
 	<img src={image} alt={name} />
 	<div className="detail-wrapper">
